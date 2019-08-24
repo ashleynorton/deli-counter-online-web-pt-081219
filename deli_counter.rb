@@ -15,8 +15,8 @@ end
 
 def take_a_number(katz_deli, name)
   katz_deli << name
-  counter = katz_deli
-  puts "Welcome, #{name}. You are number #{katz_deli.at(-1)} in line."
+  counter = katz_deli.last
+  puts "Welcome, #{name}. You are number #{counter} in line."
 end
 
 def now_serving(array)
