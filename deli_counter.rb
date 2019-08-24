@@ -21,7 +21,6 @@ def take_a_number(katz_deli, name)
     puts "Welcome, #{name}. You are number #{counter} in line."
     counter += 1
   end
-  katz_deli
 end
 
 def now_serving(array)
