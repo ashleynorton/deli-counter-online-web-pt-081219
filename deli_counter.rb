@@ -18,7 +18,7 @@ def take_a_number(katz_deli, name)
   counter = 1 
    
   while counter <= katz_deli.length
-    puts "Welcome, #{name}. You are number #{counter} in line."
+    puts "Welcome, #{name}. You are number counter in line."
     counter += 1
   end
 end
